@@ -3,9 +3,9 @@
 function connect2DB()
 {
     $servername = "10.3.1.104";
-    $username = "knor_schoonmaken";
+    $username = "knor_cleaning";
     $password = "schoonmaakbaas";
-    $database = "knor_schoonmaken";
+    $database = "knor_cleaning";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $database);
