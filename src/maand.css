@@ -1,0 +1,31 @@
+#kalender table{
+    clear: left;
+    margin: 80px auto 10px;
+    /*border-collapse: separate;*/
+    border-spacing: 2px 2px;
+
+}
+
+#kalender td, #kalender th{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+#kalender th{
+    font-style: italic;
+    font-weight: normal;
+}
+
+#kalender td.active{
+    background-color: rgb(225,229,239);
+    /*font-weight: bold;*/
+    color: white;
+
+   /* border-color:  rgb(225,229,239);*/
+
+}
+
+#kalender td.active:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,3 @@
+deny from all
+ErrorDocument 404    http://www.schoonmaken.reetro21.nl/errors/error.php
+ErrorDocument 403    http://www.schoonmaken.reetro21.nl/errors/error.php

@@ -1,0 +1,8 @@
+#gang, #vloer{
+    float: none;
+
+}
+
+#huisgenoten{
+    display: none;  /* Verbergt de namen en vereist zo eerst een selectie van de taak */
+}

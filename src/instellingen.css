@@ -1,0 +1,53 @@
+
+
+#huisgenoten ,#afwezigen, #vakanties {
+    width: 100%;
+    margin-bottom: 10px;
+}
+th{
+    text-align: left;
+}
+
+#indeling select { /*font size van weekselectie dropdown bij de indeling */
+    font-size: 12pt;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.content:hover td{
+    background-color: rgb(126, 230, 225);
+    color: white;
+    cursor: pointer;
+}
+
+td{
+    padding: 5px;
+    border: none;
+}
+
+table td.knop_voeg_toe{
+    /*background-color: rgb(225, 229, 239);*/
+    background-color: rgb(106, 211, 207);
+    text-align: center;
+    color: white;
+}
+
+td.delete{
+    text-align: center;
+    font-size: 14pt;
+    color: white;
+}
+
+/*### VERBORGEN FORMULIEREN ###*/
+.hidden  input{
+    font-size : 12pt;
+}
+
+.hidden {
+    display: none;
+}
+.hidden table td{
+    width: 180px;
+}

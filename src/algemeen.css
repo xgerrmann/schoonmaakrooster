@@ -1,0 +1,357 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    border-bottom: 1px solid rgb(162, 180, 181);
+    display: inline-block;
+    font-weight: bold;
+
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    font-size: 14pt;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: rgb(162, 180, 181);
+    font-size: 10pt;
+    text-transform: uppercase;
+}
+
+div.col1 {
+    /* semi widths column left */
+    float: left;
+    clear: left;
+    width: 50%;
+}
+
+div.col2 {
+    /* semi width column right */
+    float: left;
+    width: 50%;
+}
+
+div.col3 {
+    /* Full width column */
+    float: left;
+    clear: left;
+    width: 100%;
+}
+
+body {
+    margin: 30px 0;
+    /*background-color: rgb(225, 229, 239);*/
+    font-family: "Open Sans";
+    letter-spacing: 2px;
+    background-image: url("images/head_deer.png");
+    /*background-image: url("images/Schoonmaakrooster.svg");*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 848px 960px;
+    overflow-y:scroll;
+
+}
+
+div.block1 {
+    /*background-color: white;*/
+    background-color: rgba(255,255,255,0.80);
+    margin: 0 10px 10px 0;
+    padding: 0 20px 10px 20px;
+    overflow: auto;
+    width: 570px;
+    float: left;
+
+}
+
+#main {
+    margin: 0 auto;
+    width: 920px;
+    padding: 0;
+}
+
+.naam_active, .naam_inactive, .naam_afgetekend, li.naam {
+    float: left;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+span.naam {
+    /*color: rgb(249,102,84);*/
+}
+
+span.naam_active:hover, li.naam:hover {
+    font-weight: bold;
+    color: rgb(106, 211, 207);
+    cursor: pointer;
+}
+
+.col_float_r {
+    float: right;
+    margin-right: 80px;
+}
+
+
+
+/* ### Huisgenoten ### */
+li {
+    list-style-type: none;
+}
+
+ul {
+    /*margin-right: 10px;*/
+    padding-left: 0;
+}
+
+/*.selected{
+    color: rgb(126,230,225);
+    font-weight: bold;
+}*/
+/*### Afgetekend ### */
+.naam_inactive {
+    color: rgb(249, 102, 84);
+    /*font-weight: bold;*/
+}
+
+.naam_afgetekend {
+    color: rgb(126, 230, 225);
+    font-weight: bold;
+}
+
+/* ### Loguit ###*/
+#loguit {
+    background-color: rgba(249, 102, 84,0.9);
+    color: white;
+    padding: 114px 20px;
+    text-align: center;
+}
+
+#loguit h1, #login h1 {
+    border-bottom: 0;
+    font-size: 16pt;
+    float: none;
+    margin: 0;
+}
+
+/* ###################################*/
+/* ### Rechter kolom (Menu + Info) ###*/
+/* ###################################*/
+
+div.col_right {
+    font-size: 20pt;
+    font-weight: lighter;
+    color: white;
+    float: right;
+    margin-bottom: 10px;
+    clear: right;
+}
+
+div#menu {
+    width: 300px;
+    background-color: rgba(106, 211, 207,0.6);
+    font-family: "Raleway";
+}
+
+div#menu ul {
+    list-style-type: none;
+    padding: 0;
+    font-weight: normal;
+}
+
+div#menu li {
+    padding: 10px 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+div#menu li:hover {
+    background-color: rgba(126, 230, 225,0.80);
+    cursor: pointer;
+}
+#current { /*huidige pagina*/
+    background-color: rgba(126, 230, 225,0.8);
+}
+
+div#col_rechts {
+    /* container van menu, laatste wijzigingen en bitcoin*/
+    float: right;
+    position: fixed;
+    margin-left: 620px;
+}
+
+#info {
+    width: 260px;
+    /*height : 300 px;*/
+    float: right;
+    /*background-color: white;*/
+    background-color: rgba(255,255,255,0.80);
+    clear: right;
+    color: black;
+    font-size: 8pt;
+    /* font-weight: bold;*/
+    padding: 30px 20px 10px 20px;
+}
+
+li.tijd, li.informatie {
+    border-left: 1px solid rgb(162, 180, 181);
+    padding-left: 10px;
+
+}
+
+li.tijd {
+    font-style: italic;
+}
+
+li.informatie {
+    margin-bottom: 10px;
+    font-size: 10pt;
+}
+
+#bitcoin {
+    background-color: white;
+    padding: 30px 20px 10px 20px;
+    width: 260px;
+}
+
+#bitcoin img {
+    display: block;
+    margin: 0 auto;
+}
+
+/*### instellingen */
+#login {
+    clear: left;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 51px 20px;
+}
+
+#login input {
+    margin-top: 30px;
+    font-size: 16pt;
+    width: 260px;
+    text-align: center;
+}
+
+#aanwezigheid input[type="submit"] {
+    float: right;
+}
+
+/*#instellingen button, #instellingen input[type='submit']{
+    padding: 5px;
+    width: 150px;
+    font-size: 20pt;
+}*/
+
+#knop_links {
+    float: left;
+    clear: left;
+}
+
+#knop_rechts {
+    float: right;
+}
+
+.knop {
+    background-color: rgb(106, 211, 207);
+    border: 0;
+    color: white;
+    padding: 5px;
+    width: 150px;
+    font-size: 14pt;
+    font-family: "Raleway";
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.knop:hover {
+    background-color: rgb(126, 230, 225);
+}
+
+@media (max-width: 1000px) {
+    body{
+        width: 100% !important;
+        /*background-image: none !important;*/
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    #main{
+        width: 100% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        font-size: 30pt !important;
+    }
+
+    #col_rechts, #menu{
+        float: left !important;
+        margin:auto !important;
+        width: 100%  !important;
+        position: static !important;
+        font-size: 38pt !important;
+    }
+
+    #info{
+        display: none;
+    }
+
+    div.block1{
+        /*float: none !important;*/
+        width: 90% !important;
+        padding: 0% 5% !important;
+        background-color: rgba(255, 255, 255,0.90) !important;
+
+    }
+
+    .col_right{
+        float: none !important;
+    }
+
+    h1 {
+       /* font-size: 14pt;*/
+        font-size: 30pt;
+    }
+
+    h2 {
+        /*font-size: 10pt;*/
+        font-size: 20pt;
+    }
+
+    button{
+        font-size: 30pt !important;
+        padding: 10px;
+    }
+
+    input{
+        font-size: 30pt !important;
+    }
+
+    #login{
+        margin-top: 50px !important;
+    }
+
+    #knop_links, #knop_rechts{
+        width: 200px;
+    }
+
+
+
+    /*#### voor het maandoverzicht */
+    #kalender td, #kalender th{
+        height: 100px !important;
+        width: 100px !important;
+    }
+
+    #kalender table, td ,th{
+        font-size: 26pt !important;
+
+    }
+}
